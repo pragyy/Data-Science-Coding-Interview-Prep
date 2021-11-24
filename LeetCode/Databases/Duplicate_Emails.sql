@@ -19,4 +19,5 @@ Return the result table in any order.
 # Write your MySQL query statement below
 SELECT email as Email
 FROM Person 
-HAVING COUNT(email)>1
+GROUP BY email
+HAVING COUNT(*)> 1
