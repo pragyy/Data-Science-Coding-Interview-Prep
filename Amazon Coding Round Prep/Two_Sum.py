@@ -21,9 +21,10 @@ class Solution(object):
     
         for i in range(len(nums)):
             complement = target - nums[i]
-            if complement in hash:
+            if complement in hash and hash[complement] != i:
                 return [i, hash[complement]]
               
 """
 Time Complexity - O(n)
 Space Complexity - O(n)
+"""
