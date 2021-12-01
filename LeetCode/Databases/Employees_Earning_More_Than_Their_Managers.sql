@@ -1,6 +1,4 @@
 /*
-Table: Employee
-
 +-------------+---------+
 | Column Name | Type    |
 +-------------+---------+
@@ -16,11 +14,12 @@ Each row of this table indicates the ID of an employee, their name, salary, and 
 Write an SQL query to find the employees who earn more than their managers.
 
 Return the result table in any order.
+
+The query result format is in the following example.
 */
 
 # Write your MySQL query statement below
-SELECT T2.name As Employee
-FROM Employee T1 
-Inner join Employee T2
-ON T1.id = T2.managerId
-WHERE T1.salary < T2.salary
+SELECT e1.name
+FROM Employee.e1 LEFT JOIN Employee.e2
+ON e1.managerId = e2.id 
+Where e1.salary > e2.salary
