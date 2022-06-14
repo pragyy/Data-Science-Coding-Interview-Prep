@@ -17,7 +17,7 @@ Return the result table in any order.
 */
 
 # Write your MySQL query statement below
-SELECT email as Email
-FROM Person 
-GROUP BY email
-HAVING COUNT(*)> 1
+DELETE p2 
+FROM Person p1 INNER JOIN Person p2
+ON p1.email = p2.email
+WHERE p1.id < p2.id
