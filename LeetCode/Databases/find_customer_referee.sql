@@ -1,4 +1,4 @@
-\*
+/*
 
 Table: Customer
 
@@ -17,7 +17,7 @@ Write an SQL query to report the names of the customer that are not referred by 
 
 Return the result table in any order.
 
-*\
+*/
 
 # Write your MySQL query statement below
 SELECT name
