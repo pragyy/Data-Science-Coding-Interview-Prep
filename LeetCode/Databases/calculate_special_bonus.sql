@@ -1,4 +1,4 @@
-\*
+/*
 
 +-------------+---------+
 | Column Name | Type    |
@@ -15,7 +15,7 @@ Write an SQL query to calculate the bonus of each employee. The bonus of an empl
 
 Return the result table ordered by employee_id.
 
-*\
+*/
 
 # Write your MySQL query statement below
 SELECT employee_id, 
