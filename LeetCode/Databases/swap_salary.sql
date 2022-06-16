@@ -1,4 +1,4 @@
-\*
+/*
 
 +-------------+----------+
 | Column Name | Type     |
@@ -17,7 +17,7 @@ Write an SQL query to swap all 'f' and 'm' values (i.e., change all 'f' values t
 
 Note that you must write a single update statement, do not write any select statement for this problem.
 
-*\
+*/
 
 # Write your MySQL query statement below
 UPDATE Salary
