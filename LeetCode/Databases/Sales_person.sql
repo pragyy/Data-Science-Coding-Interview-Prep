@@ -1,4 +1,4 @@
-\*
+/*
 
 Table: SalesPerson
 
@@ -49,7 +49,7 @@ Write an SQL query to report the names of all the salespersons who did not have 
 
 Return the result table in any order.
 
-*\
+*/
 
 # Write your MySQL query statement below
 SELECT S.name 
